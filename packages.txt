@@ -1,5 +1,9 @@
 libgl1
-libglib2.0-0t64
+libglib2.0-0
+libsm6
+libxext6
+libxrender1
+libgomp1
 libgeos-dev
 libproj-dev
 proj-data
