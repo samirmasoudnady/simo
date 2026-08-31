@@ -11,7 +11,8 @@ import os
 from sgp4.api import Satrec, jday
 import pandas as pd
 from datetime import datetime, timedelta
-from datetime import time
+from datetime import time as dt_time
+import time
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
 import pytz
@@ -135,7 +136,7 @@ def run_object_detection():
 
     if st.button("Back"):
         st.session_state.option = None
-        st.experimental_rerun()
+        st.rerun()
 
     st.sidebar.markdown("---")
     st.sidebar.markdown("### About")
