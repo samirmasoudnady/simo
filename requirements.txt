@@ -102,3 +102,6 @@ Werkzeug==3.0.3
 wrapt==1.16.0
 xyzservices==2024.6.0
 zstandard==0.23.0
+cartopy==0.23.0
+torch==2.3.1
+torchvision==0.18.1
